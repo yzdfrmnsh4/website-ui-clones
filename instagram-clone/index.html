@@ -1,0 +1,496 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png" type="image/x-icon">
+    <!-- Google Fonts - Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Google Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        
+        <!-- Main Content Container -->
+        <main class="main-container">
+        <!-- Left Sidebar -->
+        <aside class="left-sidebar">
+            <nav class="nav-list">
+                <!-- <span> -->
+                    <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" alt="Instagram Logo">
+                <!-- </span> -->
+                <li class="nav-item"><a href="#"><span class="icon material-icons">home</span> <span>Home</span></a></li>
+                <li class="nav-item"><a href="#"><span class="icon material-icons">search</span> <span>Search</span></a></li>
+                <li class="nav-item"><a href="#"><span class="icon material-icons">explore</span> <span>Explore</span></a></li>
+                <li class="nav-item"><a href="#"><span class="icon material-icons">movie_filter</span> <span>Reels</span></a></li>
+                <li class="nav-item messages">
+                    <a href="#">
+                        <span class="icon material-icons">send</span>
+                        <span>Messages</span>
+                        <span class="notification-badge">3</span>
+                    </a>
+                </li>
+                <li class="nav-item"><a href="#"><span class="icon material-icons">favorite_border</span> <span>Notifications</span></a></li>
+                <li class="nav-item"><a href="#"><span class="icon material-icons">add_box</span> <span>Create</span></a></li>
+                <li class="nav-item">
+                    <a href="#">
+                        <img src="https://plus.unsplash.com/premium_photo-1739786995646-480d5cfd83dc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZmlsZSUyMHBpY3R1cmUlMjBpY29ufGVufDB8MnwwfHx8MA%3D%3D" alt="Profile" class="profile-pic">
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li class="nav-item"><a href="#"><span class="icon material-icons">menu</span> <span>More</span></a></li>
+                <li class="nav-item"><a href="#"><span class="icon material-icons">grid_view</span> <span>Also from Meta</span></a></li>
+            </nav>
+        </aside>
+
+        <!-- Central Feed Area -->
+        <section class="feed-container">
+            <!-- Stories Bar -->
+            <div class="stories-bar">
+                <div class="story-item">
+                    <img src="https://plus.unsplash.com/premium_photo-1739163838574-27c663e8a22b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfDJ8MHx8fDA%3D?portrait,person&sig=3" alt="Story" class="story-pic">
+                    <span class="story-username">your_story</span>
+                </div>
+                <div class="story-item">
+                    <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmlsZXxlbnwwfDJ8MHx8fDA%3D?portrait,person&sig=4" alt="Story" class="story-pic">
+                    <span class="story-username">alexandrhip</span>
+                </div>
+                <div class="story-item">
+                    <img src="https://images.unsplash.com/photo-1496442485495-dcb2fa6bb0bc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBlcnNvbiUyMGluJTIwbW91bnRhaW58ZW58MHwyfDB8fHww?portrait,person&sig=5" alt="Story" class="story-pic">
+                    <span class="story-username">traveler_</span>
+                </div>
+                <div class="story-item">
+                    <img src="https://images.unsplash.com/photo-1644975243576-27cf4e66b974?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Zm9vZCUyMHZsb2dnZXJ8ZW58MHwyfDB8fHww?portrait,person&sig=6" alt="Story" class="story-pic">
+                    <span class="story-username">foodie_exp</span>
+                </div>
+                <div class="story-item">
+                    <img src="https://images.unsplash.com/photo-1686851850614-63517b473945?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXJ0JTIwbG92ZXJ8ZW58MHwyfDB8fHww/?portrait,person&sig=7" alt="Story" class="story-pic">
+                    <span class="story-username">art_lover</span>
+                </div>
+                <div class="story-item">
+                    <img src="https://images.unsplash.com/photo-1632988288041-542d575b0d8f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlJTIwcGVyc29ufGVufDB8MnwwfHx8MA%3D%3D?portrait,person&sig=8" alt="Story" class="story-pic">
+                    <span class="story-username">nature_ph</span>
+                </div>
+                <div class="story-item">
+                    <img src="https://images.unsplash.com/photo-1508674861872-a51e06c50c9b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRlY2glMjBwZXJzb258ZW58MHwyfDB8fHww?portrait,person&sig=9" alt="Story" class="story-pic">
+                    <span class="story-username">tech_geek</span>
+                </div>
+                <div class="story-item">
+                    <img src="https://images.unsplash.com/photo-1730875647521-81e8bc2fca1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWMlMjBwZXJzb258ZW58MHwyfDB8fHww" alt="Story" class="story-pic">
+                    <span class="story-username">music_fan</span>
+                </div>
+            </div>
+
+            <!-- Post Card 1 -->
+            <article class="post-card">
+                <div class="post-header">
+                    <img src="https://images.unsplash.com/photo-1625030415084-e270954ba037?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZvb3RiYWxsJTIwbWVkaWF8ZW58MHwyfDB8fHww" alt="Profile" class="profile-pic">
+                    <span class="username">faktabola</span>
+                    <span class="timestamp">• 14h</span>
+                    <span class="options-icon material-icons">more_horiz</span> <!-- Three dots icon -->
+                </div>
+                <div class="post-image">
+                    <img src="https://images.unsplash.com/photo-1667375152478-5c4d62eb9ecb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGZvb3RiYWxsJTIwbWVkaWF8ZW58MHwyfDB8fHww" alt="Post Image">
+                </div>
+                <div class="post-actions">
+                    <div class="left-icons">
+                        <span class="icon material-icons">favorite_border</span> <!-- Heart Icon -->
+                        <span class="icon material-icons">chat_bubble_outline</span> <!-- Comment Icon -->
+                        <span class="icon material-icons">send</span> <!-- Share Icon -->
+                    </div>
+                    <div class="right-icon">
+                        <span class="icon material-icons">bookmark_border</span> <!-- Bookmark Icon -->
+                    </div>
+                </div>
+                <div class="post-likes">18,175 likes</div>
+                <div class="post-caption">
+                    <span class="username">faktabola</span> Reuni mantan! Manchester United akan tanding lawan Fiorentina di Old Trafford dpada 9 Agustus 2025 ini. Tiket telah... <span class="more-text">more</span>
+                </div>
+                <a href="#" class="post-comments-link">View all 108 comments</a>
+                <div class="post-add-comment">
+                    <input type="text" placeholder="Add a comment...">
+                    <span class="post-button">Post</span>
+                </div>
+                <div class="post-time-ago">2 HOURS AGO</div>
+            </article>
+
+            <!-- Post Card 2 -->
+            <article class="post-card">
+                <div class="post-header">
+                    <img src="https://images.unsplash.com/photo-1623517006691-00db997b4c58?q=80&w=597&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Profile" class="profile-pic">
+                    <span class="username">indahkusumawati</span>
+                    <span class="timestamp">• 3d</span>
+                    <span class="options-icon material-icons">more_horiz</span>
+                </div>
+                <div class="post-image">
+                    <img src="https://images.unsplash.com/photo-1540325045377-ed2c29374d19?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y291cGxlJTIwZ29hbHN8ZW58MHwyfDB8fHww" alt="Post Image">
+                </div>
+                <div class="post-actions">
+                    <div class="left-icons">
+                        <span class="icon material-icons">favorite_border</span>
+                        <span class="icon material-icons">chat_bubble_outline</span>
+                        <span class="icon material-icons">send</span>
+                    </div>
+                    <div class="right-icon">
+                        <span class="icon material-icons">bookmark_border</span>
+                    </div>
+                </div>
+                <div class="post-likes">118,983 likes</div>
+                <div class="post-caption">
+                    <span class="username">indahkusumawati</span> Ok memenuhi polling yang 97% mau aku posting masa pacaran.... <span class="more-text">more</span>
+                </div>
+                <a href="#" class="post-comments-link">View all 944 comments</a>
+                <div class="post-add-comment">
+                    <input type="text" placeholder="Add a comment...">
+                    <span class="post-button">Post</span>
+                </div>
+                <div class="post-time-ago">3 DAYS AGO</div>
+            </article>
+
+            <!-- Post Card 3 -->
+            <article class="post-card">
+                <div class="post-header">
+                    <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Profile" class="profile-pic">
+                    <span class="username">tech.mada</span>
+                    <span class="timestamp">• 18h</span>
+                    <span class="options-icon material-icons">more_horiz</span>
+                </div>
+                <div class="post-image">
+                    <img src="https://images.unsplash.com/photo-1587955359102-76802c3c804c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmV3c3xlbnwwfDJ8MHx8fDA%3D" alt="Post Image">
+                </div>
+                <div class="post-actions">
+                    <div class="left-icons">
+                        <span class="icon material-icons">favorite_border</span>
+                        <span class="icon material-icons">chat_bubble_outline</span>
+                        <span class="icon material-icons">send</span>
+                    </div>
+                    <div class="right-icon">
+                        <span class="icon material-icons">bookmark_border</span>
+                    </div>
+                </div>
+                <div class="post-likes">1,038 likes</div>
+                <div class="post-caption">
+                    <span class="username">tech.mada</span> Bro. Bro. Lu dengerin dulu yah... jadi gue tuh tadi bangun pagi, mata masih sepet, kopi belum nyala, hidup belum masuk... <span class="more-text">more</span>
+                </div>
+                <a href="#" class="post-comments-link">View all 16 comments</a>
+                <div class="post-add-comment">
+                    <input type="text" placeholder="Add a comment...">
+                    <span class="post-button">Post</span>
+                </div>
+                <div class="post-time-ago">18 HOURS AGO</div>
+            </article>
+
+            <!-- Post Card 4 -->
+            <article class="post-card">
+                <div class="post-header">
+                    <img src="data:image/jpeg;base64,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" alt="Profile" class="profile-pic">
+                    <span class="username">433</span>
+                    <span class="timestamp">• 11h</span>
+                    <span class="options-icon material-icons">more_horiz</span>
+                </div>
+                <div class="post-image">
+                    <img src="https://images.unsplash.com/photo-1617142216676-89f5aadb63eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vdGJhbGwlMjBtYXRjaHxlbnwwfDJ8MHx8fDA%3D" alt="Post Image">
+                </div>
+                <div class="post-actions">
+                    <div class="left-icons">
+                        <span class="icon material-icons">favorite_border</span>
+                        <span class="icon material-icons">chat_bubble_outline</span>
+                        <span class="icon material-icons">send</span>
+                    </div>
+                    <div class="right-icon">
+                        <span class="icon material-icons">bookmark_border</span>
+                    </div>
+                </div>
+                <div class="post-likes">250,000 likes</div>
+                <div class="post-caption">
+                    <span class="username">433</span> Mix: Aero Chord + Surface | Эдуард Хиль • Я очень радь, ведь я, нако... <span class="more-text">more</span>
+                </div>
+                <a href="#" class="post-comments-link">View all 1,200 comments</a>
+                <div class="post-add-comment">
+                    <input type="text" placeholder="Add a comment...">
+                    <span class="post-button">Post</span>
+                </div>
+                <div class="post-time-ago">11 HOURS AGO</div>
+            </article>
+
+            <!-- Post Card 5 -->
+            <article class="post-card">
+                <div class="post-header">
+                    <img src="https://images.unsplash.com/photo-1661601343466-5147c59c7d40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFzaGlvbiUyMGRhaWx5fGVufDB8MnwwfHx8MA%3D%3D" alt="Profile" class="profile-pic">
+                    <span class="username">fashion_daily</span>
+                    <span class="timestamp">• 1d</span>
+                    <span class="options-icon material-icons">more_horiz</span>
+                </div>
+                <div class="post-image">
+                    <img src="https://images.unsplash.com/photo-1732587388629-2afc090586a4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZhc2hpb24lMjBkYWlseXxlbnwwfDJ8MHx8fDA%3D" alt="Post Image">
+                </div>
+                <div class="post-actions">
+                    <div class="left-icons">
+                        <span class="icon material-icons">favorite_border</span>
+                        <span class="icon material-icons">chat_bubble_outline</span>
+                        <span class="icon material-icons">send</span>
+                    </div>
+                    <div class="right-icon">
+                        <span class="icon material-icons">bookmark_border</span>
+                    </div>
+                </div>
+                <div class="post-likes">5,230 likes</div>
+                <div class="post-caption">
+                    <span class="username">fashion_daily</span> New collection dropping soon! Stay tuned for the latest trends. ✨ <span class="more-text">more</span>
+                </div>
+                <a href="#" class="post-comments-link">View all 50 comments</a>
+                <div class="post-add-comment">
+                    <input type="text" placeholder="Add a comment...">
+                    <span class="post-button">Post</span>
+                </div>
+                <div class="post-time-ago">1 DAY AGO</div>
+            </article>
+
+            <!-- Post Card 6 -->
+            <article class="post-card">
+                <div class="post-header">
+                    <img src="https://plus.unsplash.com/premium_photo-1726862909718-5f89318583a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmF0dXJlJTIwbG92ZXJ8ZW58MHwyfDB8fHww" alt="Profile" class="profile-pic">
+                    <span class="username">nature_lover</span>
+                    <span class="timestamp">• 2d</span>
+                    <span class="options-icon material-icons">more_horiz</span>
+                </div>
+                <div class="post-image">
+                    <img src="https://images.unsplash.com/photo-1665948902688-6901e9507681?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bmF0dXJlJTIwbG92ZXJ8ZW58MHwyfDB8fHww" alt="Post Image">
+                </div>
+                <div class="post-actions">
+                    <div class="left-icons">
+                        <span class="icon material-icons">favorite_border</span>
+                        <span class="icon material-icons">chat_bubble_outline</span>
+                        <span class="icon material-icons">send</span>
+                    </div>
+                    <div class="right-icon">
+                        <span class="icon material-icons">bookmark_border</span>
+                    </div>
+                </div>
+                <div class="post-likes">12,890 likes</div>
+                <div class="post-caption">
+                    <span class="username">nature_lover</span> Lost in the beauty of the mountains. Pure bliss! ⛰️🌲 <span class="more-text">more</span>
+                </div>
+                <a href="#" class="post-comments-link">View all 210 comments</a>
+                <div class="post-add-comment">
+                    <input type="text" placeholder="Add a comment...">
+                    <span class="post-button">Post</span>
+                </div>
+                <div class="post-time-ago">2 DAYS AGO</div>
+            </article>
+
+            <!-- Post Card 7 -->
+            <article class="post-card">
+                <div class="post-header">
+                    <img src="https://images.unsplash.com/photo-1583761590945-e1f1a359747d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGZvb2QlMjBleHBsb3JlcnxlbnwwfDJ8MHx8fDA%3D" alt="Profile" class="profile-pic">
+                    <span class="username">food_explorer</span>
+                    <span class="timestamp">• 5h</span>
+                    <span class="options-icon material-icons">more_horiz</span>
+                </div>
+                <div class="post-image">
+                    <img src="https://images.unsplash.com/photo-1641130382532-2514a6c93859?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZCUyMGV4cGxvcmVyfGVufDB8MnwwfHx8MA%3D%3D" alt="Post Image">
+                </div>
+                <div class="post-actions">
+                    <div class="left-icons">
+                        <span class="icon material-icons">favorite_border</span>
+                        <span class="icon material-icons">chat_bubble_outline</span>
+                        <span class="icon material-icons">send</span>
+                    </div>
+                    <div class="right-icon">
+                        <span class="icon material-icons">bookmark_border</span>
+                    </div>
+                </div>
+                <div class="post-likes">3,450 likes</div>
+                <div class="post-caption">
+                    <span class="username">food_explorer</span> Delicious pasta night! Who's hungry? 🍝😋 <span class="more-text">more</span>
+                </div>
+                <a href="#" class="post-comments-link">View all 75 comments</a>
+                <div class="post-add-comment">
+                    <input type="text" placeholder="Add a comment...">
+                    <span class="post-button">Post</span>
+                </div>
+                <div class="post-time-ago">5 HOURS AGO</div>
+            </article>
+
+            <!-- Post Card 8 -->
+            <article class="post-card">
+                <div class="post-header">
+                    <img src="https://plus.unsplash.com/premium_photo-1661892455306-5b28d01164f3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dHJhdmVsJTIwYnVnfGVufDB8MnwwfHx8MA%3D%3D" alt="Profile" class="profile-pic">
+                    <span class="username">travel_bug</span>
+                    <span class="timestamp">• 1w</span>
+                    <span class="options-icon material-icons">more_horiz</span>
+                </div>
+                <div class="post-image">
+                    <img src="https://plus.unsplash.com/premium_photo-1661964354410-4419ff43cf43?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dHJhdmVsJTIwYnVnfGVufDB8MnwwfHx8MA%3D%3D" alt="Post Image">
+                </div>
+                <div class="post-actions">
+                    <div class="left-icons">
+                        <span class="icon material-icons">favorite_border</span>
+                        <span class="icon material-icons">chat_bubble_outline</span>
+                        <span class="icon material-icons">send</span>
+                    </div>
+                    <div class="right-icon">
+                        <span class="icon material-icons">bookmark_border</span>
+                    </div>
+                </div>
+                <div class="post-likes">25,100 likes</div>
+                <div class="post-caption">
+                    <span class="username">travel_bug</span> Chasing sunsets in paradise. Can't wait for the next adventure! 🌅✈️ <span class="more-text">more</span>
+                </div>
+                <a href="#" class="post-comments-link">View all 500 comments</a>
+                <div class="post-add-comment">
+                    <input type="text" placeholder="Add a comment...">
+                    <span class="post-button">Post</span>
+                </div>
+                <div class="post-time-ago">1 WEEK AGO</div>
+            </article>
+
+            <!-- Post Card 9 -->
+            <article class="post-card">
+                <div class="post-header">
+                    <img src="https://images.unsplash.com/photo-1733517301178-312a6f694f2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Zml0bmVzcyUyMGdvYWxzfGVufDB8MnwwfHx8MA%3D%3D" alt="Profile" class="profile-pic">
+                    <span class="username">fitness_goals</span>
+                    <span class="timestamp">• 3h</span>
+                    <span class="options-icon material-icons">more_horiz</span>
+                </div>
+                <div class="post-image">
+                    <img src="https://images.unsplash.com/photo-1733517300919-ec69c1447345?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGZpdG5lc3MlMjBnb2Fsc3xlbnwwfDJ8MHx8fDA%3D" alt="Post Image">
+                </div>
+                <div class="post-actions">
+                    <div class="left-icons">
+                        <span class="icon material-icons">favorite_border</span>
+                        <span class="icon material-icons">chat_bubble_outline</span>
+                        <span class="icon material-icons">send</span>
+                    </div>
+                    <div class="right-icon">
+                        <span class="icon material-icons">bookmark_border</span>
+                    </div>
+                </div>
+                <div class="post-likes">1,800 likes</div>
+                <div class="post-caption">
+                    <span class="username">fitness_goals</span> Crushing another workout! Consistency is key. 💪🔥 <span class="more-text">more</span>
+                </div>
+                <a href="#" class="post-comments-link">View all 30 comments</a>
+                <div class="post-add-comment">
+                    <input type="text" placeholder="Add a comment...">
+                    <span class="post-button">Post</span>
+                </div>
+                <div class="post-time-ago">3 HOURS AGO</div>
+            </article>
+
+            <!-- Post Card 10 -->
+            <article class="post-card">
+                <div class="post-header">
+                    <img src="https://plus.unsplash.com/premium_photo-1661333669760-d23712cdba66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGV0JTIwbG92ZXJzfGVufDB8MnwwfHx8MA%3D%3D" alt="Profile" class="profile-pic">
+                    <span class="username">pet_lovers</span>
+                    <span class="timestamp">• 1d</span>
+                    <span class="options-icon material-icons">more_horiz</span>
+                </div>
+                <div class="post-image">
+                    <img src="https://plus.unsplash.com/premium_photo-1664392073550-d182466d2382?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHBldCUyMGxvdmVyc3xlbnwwfDJ8MHx8fDA%3D" alt="Post Image">
+                </div>
+                <div class="post-actions">
+                    <div class="left-icons">
+                        <span class="icon material-icons">favorite_border</span>
+                        <span class="icon material-icons">chat_bubble_outline</span>
+                        <span class="icon material-icons">send</span>
+                    </div>
+                    <div class="right-icon">
+                        <span class="icon material-icons">bookmark_border</span>
+                    </div>
+                </div>
+                <div class="post-likes">15,000 likes</div>
+                <div class="post-caption">
+                    <span class="username">pet_lovers</span> My furry best friend! So much love. ❤️🐾 <span class="more-text">more</span>
+                </div>
+                <a href="#" class="post-comments-link">View all 150 comments</a>
+                <div class="post-add-comment">
+                    <input type="text" placeholder="Add a comment...">
+                    <span class="post-button">Post</span>
+                </div>
+                <div class="post-time-ago">1 DAY AGO</div>
+            </article>
+        </section>
+
+        <!-- Right Sidebar -->
+        <aside class="right-sidebar">
+            <div class="user-profile-summary">
+                <img src="https://plus.unsplash.com/premium_photo-1739786995646-480d5cfd83dc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZmlsZSUyMHBpY3R1cmUlMjBpY29ufGVufDB8MnwwfHx8MA%3D%3D" alt="Your Profile" class="profile-pic">
+                <div class="user-info">
+                    <span class="username">yaziddev</span>
+                    <!-- <div class="full-name">Your Name</div> -->
+                </div>
+                <span class="switch-button">Switch</span>
+            </div>
+
+            <div class="suggestions-section">
+                <div class="suggestions-header">
+                    <span class="title">Suggested for you</span>
+                    <span class="see-all">See All</span>
+                </div>
+                <div class="suggested-accounts-list">
+                    <div class="suggested-account">
+                        <img src="https://images.unsplash.com/photo-1628157588553-5eeea00af15c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHwyfDB8fHww" alt="Suggested Profile" class="profile-pic">
+                        <div class="account-info">
+                            <span class="username">leomclarren</span>
+                            <div class="follow-status">Suggested for you</div>
+                        </div>
+                        <span class="follow-button">Follow</span>
+                    </div>
+                    <div class="suggested-account">
+                        <img src="https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGF2YXRhcnxlbnwwfDJ8MHx8fDA%3D" alt="Suggested Profile" class="profile-pic">
+                        <div class="account-info">
+                            <span class="username">julia_wan</span>
+                            <div class="follow-status">Followed by ahmedsfrt + 11 more</div>
+                        </div>
+                        <span class="follow-button">Follow</span>
+                    </div>
+                    <div class="suggested-account">
+                        <img src="https://images.unsplash.com/photo-1640951613773-54706e06851d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfDJ8MHx8fDA%3D" alt="Suggested Profile" class="profile-pic">
+                        <div class="account-info">
+                            <span class="username">alexsurpun</span>
+                            <div class="follow-status">Followed by jasonmarch + 1 more</div>
+                        </div>
+                        <span class="follow-button">Follow</span>
+                    </div>
+                    <div class="suggested-account">
+                        <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8MnwwfHx8MA%3D%3D" alt="Suggested Profile" class="profile-pic">
+                        <div class="account-info">
+                            <span class="username">juliobannuaels</span>
+                            <div class="follow-status">Followed by ruigarcia</div>
+                        </div>
+                        <span class="follow-button">Follow</span>
+                    </div>
+                    <div class="suggested-account">
+                        <img src="https://images.unsplash.com/photo-1740252117012-bb53ad05e370?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGF2YXRhcnxlbnwwfDJ8MHx8fDA%3D" alt="Suggested Profile" class="profile-pic">
+                        <div class="account-info">
+                            <span class="username">robloxid</span>
+                            <div class="follow-status">Followed by anna22 + 9 more</div>
+                        </div>
+                        <span class="follow-button">Follow</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <a href="#">About</a>
+                <a href="#">Blog</a>
+                <a href="#">Jobs</a>
+                <a href="#">Help</a>
+                <a href="#">API</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Locations</a>
+                <a href="#">Language</a>
+                <a href="#">Meta Verified</a>
+            </div>
+            <div class="copyright">
+                © 2025 INSTAGRAM FROM META
+            </div>
+        </aside>
+    </main>
+    </body>
+    </html>
